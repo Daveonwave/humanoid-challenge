@@ -1,0 +1,10 @@
+{
+  "suite": "libero_spatial",
+  "task_name": "pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+  "robot": "Panda",
+  "target_object": "akita_black_bowl_1",
+  "destination_object": "plate_1",
+  "official_goal_predicate": "(On akita_black_bowl_1 plate_1)",
+  "task_index_resolution": "Resolve by task name in the installed benchmark; do not assume an index.",
+  "status": "16_reviewed_retargeted_episodes; VLA_2000_step_evaluation_failed"
+}

@@ -1,0 +1,4 @@
+*.ipynb filter=clean-notebook
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf

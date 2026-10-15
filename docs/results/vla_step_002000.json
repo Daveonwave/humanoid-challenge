@@ -1,0 +1,24 @@
+{
+  "checkpoint": "step_002000",
+  "training_run": "20261015T130807_429731Z",
+  "checkpoint_step": 2000,
+  "source_episode": "data/robot/demo_001/20261014T201216_370037Z/episode.h5",
+  "seed": 42,
+  "max_steps": 6000,
+  "reset_mode": "recorded model XML and simulator state",
+  "evaluation_scope": "training scene",
+  "task_success_ever": false,
+  "release_check_passed": false,
+  "visual_review_required": true,
+  "status": "step_limit",
+  "clipped_steps": 955,
+  "steps": 6000,
+  "simulated_seconds": 300.0,
+  "wall_seconds": 3001.1661072220004,
+  "final_task_success": false,
+  "eef_displacement_m": [
+    -0.11007791276596518,
+    0.2753001099405623,
+    0.13651237040697306
+  ]
+}

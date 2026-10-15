@@ -1,0 +1,43 @@
+# Local environments, credentials and editor/runtime state
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.cache/
+wandb/
+*.log
+# Raw/generated research artifacts: publish selected small examples separately.
+/data/
+/outputs/
+/configs/batch/
+/configs/batch_backups/
+/configs/retarget_batch.json
+# Large datasets, archives, model and optimizer weights
+*.h5
+*.hdf5
+*.parquet
+*.arrow
+*.zip
+*.tar
+*.tar.gz
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+!examples/demo_001/camera_calibration.npz
+# Media is opt-in: only curated README previews are tracked.
+*.mov
+*.MOV
+*.mp4
+*.gif
+!docs/media/*.mp4
+!docs/media/*.gif

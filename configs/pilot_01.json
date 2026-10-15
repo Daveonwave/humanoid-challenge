@@ -1,0 +1,11 @@
+{
+  "video": "data/raw/pilot_pick_place_01.mov",
+  "calibration": "outputs/calibration/iphone13mini_1080x1920_provisional.npz",
+  "output_hz": 20,
+  "max_reprojection_px": 2.0,
+  "transfer_start_s": 5.0,
+  "transfer_end_s": 11.5,
+  "release_approx_s": 12.0,
+  "annotation_status": "Provisional manual estimates from half-second video samples; review in notebook.",
+  "method": "Hybrid: robot expert approach/grasp and endpoint anchors; human marker supplies transfer shape and duration. No calibrated hand-to-grasp offset."
+}

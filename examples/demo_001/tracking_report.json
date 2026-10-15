@@ -1,0 +1,16 @@
+{
+  "opencv": "5.0.0",
+  "fps": 30.0,
+  "decoded_frames": 288,
+  "paired_detections": 251,
+  "valid_poses": 251,
+  "quality_accepted": 251,
+  "timestamps": "video_POS_MSEC",
+  "median_marker_error_px": 0.264037549495697,
+  "median_board_error_px": 0.20027273893356323,
+  "max_adjacent_raw_position_change_m": 0.04272570081412439,
+  "source_video": "data/raw/demo_001.MOV",
+  "source_calibration": "outputs/calibration/iphone13mini_1080x1920_provisional.npz",
+  "interpretation": "Marker center in board frame; positive height faces camera. Not a measured grasp point.",
+  "limitations": "Planar pose ambiguity and intrinsics error are not excluded by low reprojection error. Offline smoothing can shift phase boundaries."
+}

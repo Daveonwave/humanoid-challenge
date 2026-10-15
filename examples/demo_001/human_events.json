@@ -1,0 +1,31 @@
+{
+  "video": "data/raw/demo_001.MOV",
+  "method": "manual visual annotation",
+  "frame_index_convention": "zero-based decoded frame index",
+  "events": {
+    "closure_start": {
+      "frame": 90,
+      "time_s": 3.0
+    },
+    "grasp_established": {
+      "frame": 101,
+      "time_s": 3.3666666666666667
+    },
+    "lift_off": {
+      "frame": 128,
+      "time_s": 4.266666666666667
+    },
+    "placement_contact": {
+      "frame": 212,
+      "time_s": 7.066666666666667
+    },
+    "opening_start": {
+      "frame": 233,
+      "time_s": 7.7666666666666675
+    },
+    "release_complete": {
+      "frame": 243,
+      "time_s": 8.1
+    }
+  }
+}
