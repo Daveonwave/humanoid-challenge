@@ -23,18 +23,26 @@ board = aruco.CharucoBoard(
 board_image = board.generateImage((1500, 2100))
 
 # This returns an image directly. Size here is in pixels.
-marker_image = aruco.generateImageMarker(
-    aruco_dict, 49, 600
-)
+marker_image = aruco.generateImageMarker(aruco_dict, 49, 600)
 
 # White margins help detection at the outer edges.
 board_image = cv2.copyMakeBorder(
-    board_image, 100, 100, 100, 100,
-    cv2.BORDER_CONSTANT, value=255,
+    board_image,
+    100,
+    100,
+    100,
+    100,
+    cv2.BORDER_CONSTANT,
+    value=255,
 )
 marker_image = cv2.copyMakeBorder(
-    marker_image, 75, 75, 75, 75,
-    cv2.BORDER_CONSTANT, value=255,
+    marker_image,
+    75,
+    75,
+    75,
+    75,
+    cv2.BORDER_CONSTANT,
+    value=255,
 )
 
 assert cv2.imwrite(str(OUTPUT_DIR / "charuco_board.png"), board_image)

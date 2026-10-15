@@ -164,7 +164,7 @@ The notebooks assume the project is at `/content/drive/MyDrive/Projects/humanoid
 
 Notebook 10 contains independent fresh-training, evaluation, diagnostic, and continuation sections. **Do not run the whole notebook blindly:** choose the relevant section. Historical export/checkpoint IDs must be replaced with your own outputs for a new run. Earlier notebooks 01 and 03–07 document pilot experiments; the README describes the current batch workflow.
 
-For batch commands and recording dimensions, see [the batch guide](docs/04_batch_retargeting.md). For read-only path/timing analysis:
+Batch commands are available through `python scripts/batch_retarget.py --help`. For read-only path/timing analysis:
 
 ```bash
 python scripts/analyze_retarget_batch.py --project "$PWD"
